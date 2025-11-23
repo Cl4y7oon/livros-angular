@@ -9,23 +9,23 @@ export class ControleLivrosService {
     {
       codigo: 1,
       codEditora: 1,
-      titulo: 'Use a Cabeça: Java',
-      resumo: 'Use a Cabeça! Java é uma experiência completa de aprendizado em programação orientada a objetos (OO) e Java.',
-      autores: ['Bert Bates', 'Kathy Sierra']
+      titulo: 'O Menino Maluquinho',
+      resumo: 'A história de um menino traquinas que aprontava muita confusão. Alegria da casa, liderava a garotada, era sabido e um amigão. Fazia versinhos, canções, inventava brincadeiras. Toda a criançada o adorava. Menino maluquinho, diziam. Mas na verdade ele não era maluquinho não. Era feliz!',
+      autores: ['Ziraldo']
     },
     {
       codigo: 2,
       codEditora: 2,
-      titulo: 'Java, como Programar',
-      resumo: 'Milhões de alunos e profissionais aprenderam programação e desenvolvimento de software com os livros Deitel',
-      autores: ['Paul Deitel', 'Harvey Deitel']
+      titulo: 'Marcelo, Marmelo, Martelo',
+      resumo: 'Marcelo é um menino muito curioso e inteligente. Ele gosta de inventar palavras novas e descobrir o significado das coisas. Uma história que mostra como a criatividade e a imaginação podem transformar o mundo ao nosso redor.',
+      autores: ['Ruth Rocha']
     },
     {
       codigo: 3,
       codEditora: 3,
-      titulo: 'Core Java for the Impatient',
-      resumo: 'Readers familiar with Horstmann\'s original, two-volume "Core Java" books who are looking for a comprehensive, but condensed guide to all of the new features and functions of Java SE 9 will learn how these new features impact the language and core libraries.',
-      autores: ['Cay Horstmann']
+      titulo: 'A Arca de Noé',
+      resumo: 'Uma coletânea de poemas infantis escritos por Vinicius de Moraes, incluindo o famoso poema sobre a arca de Noé e seus animais. Versos divertidos e musicais que encantam crianças e adultos há gerações.',
+      autores: ['Vinicius de Moraes']
     }
   ];
 
