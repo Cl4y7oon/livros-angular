@@ -10,7 +10,7 @@
       </tr>
     </thead>
     <tbody>
-      <tr *ngFor="let livro of livros">
+      <tr *ngFor="let livro of livros; let i = index">
         <td>
           {{ livro.titulo }}
           <br>

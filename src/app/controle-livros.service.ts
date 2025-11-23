@@ -21,7 +21,7 @@ export class ControleLivrosService {
     const resposta = await fetch(baseURL);
     const dados = await resposta.json();
     return dados.map((livro: LivroMongo) => ({
-      codigo: livro._id,
+      codigo: livro._id ? String(livro._id) : '',
       codEditora: livro.codEditora,
       titulo: livro.titulo,
       resumo: livro.resumo,
