@@ -24,6 +24,7 @@ export class LivroDadosComponent implements OnInit {
     private router: Router
   ) {
     this.livro = new Livro();
+    this.livro.codigo = '';
     this.livro.autores = [];
   }
 
@@ -33,7 +34,8 @@ export class LivroDadosComponent implements OnInit {
 
   incluir = (): void => {
     this.livro.autores = this.autoresForm.split('\n').map(autor => autor.trim()).filter(autor => autor.length > 0);
-    this.servLivros.incluir(this.livro);
-    this.router.navigateByUrl('/lista');
+    this.servLivros.incluir(this.livro).then(() => {
+      this.router.navigateByUrl('/lista');
+    });
   }
 }
